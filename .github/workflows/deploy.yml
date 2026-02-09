@@ -42,5 +42,5 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           deploy-message: "Deploy from GitHub Actions - ${{ github.sha }}"
         env:
-          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
-          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+          NETLIFY_AUTH_TOKEN: nfp_vTGmi2cvj37N9j2DcMaJpq3qb92j5oATc72a
+          NETLIFY_SITE_ID: ab95a122-a617-4b11-a97d-9dc53d726d95
